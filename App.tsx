@@ -1,8 +1,8 @@
 // src/App.js
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import camera from './assets/camera-minimalistic-svgrepo-com.png';
-import newThread from './assets/plus-circle.png';
+import camera from './camera-minimalistic-svgrepo-com.png';
+import newThread from './plus-circle.png';
 
 function App() {
   const [posts, setPosts] = useState([
